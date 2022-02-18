@@ -1,0 +1,34 @@
+<!-- "Write a JavaScript program to calculate multiplication and division of two numbers (input from user).""
+    Help:
+https://www.w3schools.com/js/js_htmldom.asp
+https://www.w3schools.com/js/js_htmldom_methods.asp
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Operations</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <p>
+        <label for="number">Por favor digite el primer operando
+            <input type="number" id="number1">
+        </label>
+    </p>
+    <p>
+        <label for="number">Por favor digite el segundo operando
+            <input type="number" id="number2">
+        </label>
+    </p>
+    <p>
+        <button onclick="multiplication()">Multiplicar</button>
+        <button onclick="division()">Dividir</button>
+    </p>
+
+    <label for="text">El resultado es: </label>
+    <div id="result"></div>
+</body>
+</html>
